@@ -32,3 +32,13 @@ export function factorial(x: number): number {
   return x === 0 ? 1 : x * factorial(x - 1)
 }
 
+export function fibonacci(x: number): number {
+
+  if (x === 0) {
+    return 0
+  }
+  if (x === 1) {
+    return 1
+  }
+  return fibonacci(x - 1) + fibonacci(x - 2)
+}
