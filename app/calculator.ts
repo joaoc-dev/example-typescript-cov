@@ -20,3 +20,8 @@ export function divide(x: number, y: number): number | string {
 export function power(x: number, y: number): number {
   return Math.pow(x, y)
 }
+
+export function squareRoot(x: number): number {
+  return Math.sqrt(x)
+}
+
