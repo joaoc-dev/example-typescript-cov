@@ -25,3 +25,10 @@ export function squareRoot(x: number): number {
   return Math.sqrt(x)
 }
 
+export function factorial(x: number): number {
+  if (x < 0) {
+    return 'Cannot calculate factorial of negative number'
+  }
+  return x === 0 ? 1 : x * factorial(x - 1)
+}
+
